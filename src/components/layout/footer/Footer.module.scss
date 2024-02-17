@@ -1,0 +1,47 @@
+.Footer {
+  padding-block: 150px;
+
+	.content {
+		.car {
+			margin-top: 5rem;
+			display: flex;
+			gap: 2rem;
+
+			img {
+				margin-left: 12rem;
+				margin-bottom: 4rem;
+			}
+			p {
+				font-weight: 900;
+				margin-left: 40rem;
+			}
+			.btn {
+				height: 3rem;
+				border-radius: 2rem;
+				width: 8rem;
+				margin-left: 41rem;
+				margin-top: 1rem;
+				background-color: black;
+				color: white;
+			}
+		}
+		p {
+			margin-left: 12rem;
+			color: black;
+		}
+		.car1 {
+			margin-left: 12rem;
+			margin-top: 4rem;
+			display: flex;
+			gap: 3rem;
+		}
+		hr {
+			margin-top: 4rem;
+		}
+		.car2 {
+			margin-top: 4rem;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}

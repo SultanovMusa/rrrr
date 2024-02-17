@@ -1,0 +1,321 @@
+.section6 {
+	padding-block: 150px;
+	background: rgb(0, 0, 0);
+
+	.divphotos {
+		display: flex;
+		justify-content: space-between;
+		@media (max-width: 1150px) {
+			display: none;
+		}
+		.photos1 {
+			position: relative;
+			width: 100%;
+			.logo1 {
+				position: absolute;
+				top: -200px;
+				width: 42rem;
+				height: 90rem;
+				left: -230px;
+				z-index: 1;
+			}
+			.logo2 {
+				position: absolute;
+				right: -230px;
+				z-index: 1;
+			}
+		}
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+
+		position: relative;
+		z-index: 2;
+		.div1 {
+			display: flex;
+			flex-direction: column;
+			justify-content: start;
+			align-items: center;
+			gap: 1rem;
+
+			h2 {
+				color: rgb(255, 255, 255);
+				font-family: Inter;
+				font-size: 3rem;
+				font-weight: 700;
+				line-height: 100%;
+				letter-spacing: 0%;
+				text-align: left;
+				position: relative;
+				z-index: 2;
+				@media (max-width: 768px) {
+					font-size: 2rem;
+					font-weight: 500;
+				}
+				@media (max-width: 525px) {
+					font-size: 1.5rem;
+					font-weight: 400;
+				}
+			}
+			p {
+				color: rgb(168, 168, 168);
+				font-family: Inter;
+				font-size: 1rem;
+				font-weight: 400;
+				line-height: 1.1rem;
+				letter-spacing: 0%;
+				text-align: center;
+				position: relative;
+				z-index: 2;
+				@media (max-width: 650px) {
+					font-size: 0.8rem;
+					font-weight: 350;
+				}
+			}
+		}
+		.div2 {
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			@media (max-width: 655px) {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 0.5rem;
+				margin-right: 0;
+			}
+			p {
+				color: rgb(255, 255, 255);
+				font-family: Inter;
+				font-size: 0.9rem;
+				font-weight: 600;
+				line-height: 150%;
+				letter-spacing: 0%;
+				text-align: left;
+				@media (max-width: 655px) {
+					font-size: 0.7rem;
+					font-weight: 500;
+				}
+			}
+			.texts {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				gap: 0.6rem;
+				@media (max-width: 655px) {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					gap: 0.6rem;
+				}
+
+				.button2 {
+					box-sizing: border-box;
+					border: 1px solid rgb(64, 64, 64);
+					color: rgb(168, 168, 168);
+					font-family: Inter;
+					font-size: 1rem;
+					font-weight: 400;
+					line-height: 150%;
+					letter-spacing: 0%;
+					text-align: left;
+					padding-inline: 0.9rem;
+					padding-block: 0.7rem;
+					background: black;
+					position: relative;
+					z-index: 10;
+					@media (max-width: 655px) {
+						font-size: 0.8rem;
+						padding-block: 0.5rem;
+						padding-inline: 0.7rem;
+					}
+					&.active {
+						background: rgb(255, 255, 255);
+						padding-block: 0.7rem;
+						padding-inline: 0.9rem;
+						color: rgb(0, 0, 0);
+						font-family: Inter;
+						font-size: 1rem;
+						font-weight: 600;
+						line-height: 150%;
+						letter-spacing: 0%;
+						text-align: left;
+						position: relative;
+						z-index: 10;
+						@media (max-width: 655px) {
+							font-size: 0.8rem;
+							padding-block: 0.5rem;
+							padding-inline: 0.7rem;
+						}
+					}
+				}
+			}
+		}
+		.div3 {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			gap: 1.5rem;
+			@media (max-width: 655px) {
+				display: flex;
+				flex-direction: column;
+				gap: 0.6rem;
+			}
+			.inputslabel {
+				display: flex;
+				flex-direction: column;
+				gap: 0.6rem;
+				@media (max-width: 655px) {
+					display: flex;
+					flex-direction: column;
+					gap: 0.3rem;
+				}
+				label {
+					color: rgb(255, 255, 255);
+					font-family: Inter;
+					font-size: 0.9rem;
+					font-weight: 600;
+					line-height: 150%;
+					letter-spacing: 0%;
+					text-align: left;
+					@media (max-width: 655px) {
+						font-size: 0.7rem;
+						font-weight: 500;
+					}
+				}
+				input {
+					padding-block: 0.7rem;
+					padding-left: 0.9rem;
+					padding-right: 24.3rem;
+					color: rgb(168, 168, 168);
+					font-family: Inter;
+					font-size: 1rem;
+					font-weight: 400;
+					line-height: 150%;
+					letter-spacing: 0%;
+					text-align: left;
+					background: black;
+					box-sizing: border-box;
+					border: 1px solid rgb(64, 64, 64);
+					position: relative;
+					z-index: 3;
+					@media (max-width: 655px) {
+						padding-left: 0.5rem;
+						padding-right: 8.5rem;
+						padding-block: 0.9rem;
+					}
+					@media (max-width: 500px) {
+						padding-left: 0.4rem;
+						padding-right: 7.5rem;
+						padding-block: 0.8rem;
+					}
+				}
+			}
+			.inputslabel2 {
+				display: flex;
+				flex-direction: column;
+				gap: 0.6rem;
+				@media (max-width: 655px) {
+					display: flex;
+					flex-direction: column;
+					gap: 0.3rem;
+				}
+				label {
+					color: rgb(255, 255, 255);
+					font-family: Inter;
+					font-size: 0.9rem;
+					font-weight: 600;
+					line-height: 150%;
+					letter-spacing: 0%;
+					text-align: left;
+					@media (max-width: 655px) {
+						font-size: 0.7rem;
+						font-weight: 500;
+					}
+				}
+				input {
+					color: rgb(168, 168, 168);
+					font-family: Inter;
+					font-size: 1rem;
+					font-weight: 400;
+					line-height: 150%;
+					letter-spacing: 0%;
+					text-align: left;
+					padding-right: 24.3rem;
+					padding-top: 0.7rem;
+					padding-left: 0.9rem;
+					padding-bottom: 8.6rem;
+					background: black;
+					box-sizing: border-box;
+					border: 1px solid rgb(64, 64, 64);
+					@media (max-width: 655px) {
+						padding-left: 0.5rem;
+						padding-right: 8.5rem;
+						padding-top: 0.9rem;
+						padding-bottom: 5rem;
+					}
+					@media (max-width: 500px) {
+						padding-left: 0.4rem;
+						padding-right: 7.5rem;
+						padding-top: 0.8rem;
+						padding-bottom: 3rem;
+					}
+				}
+			}
+			p {
+				margin-top: -5rem;
+				color: rgb(168, 168, 168);
+				font-family: Inter;
+				font-size: 0.9rem;
+				font-weight: 400;
+				line-height: 1.1rem;
+				letter-spacing: 0%;
+				text-align: left;
+				@media (max-width: 700px) {
+					font-size: 0.7rem;
+					font-weight: 350;
+				}
+			}
+			a {
+				color: rgb(255, 255, 255);
+				font-family: Inter;
+				font-size: 0.9rem;
+				font-weight: 400;
+				line-height: 1.1rem;
+				letter-spacing: 0%;
+				text-align: left;
+
+				// @media (max-width: 700px) {
+				// 	font-size: 0.7rem;
+				// 	font-weight: 350;
+				// }
+			}
+			.btn {
+				margin-top: 3rem;
+				border-radius: 30px;
+				background: rgb(255, 255, 255);
+				color: rgb(0, 0, 0);
+				font-family: Inter;
+				font-size: 1.1rem;
+				font-weight: 600;
+				line-height: 1.3rem;
+				letter-spacing: 0%;
+				text-align: left;
+				padding-block: 0.9rem;
+				padding-inline: 1.5rem;
+				@media (max-width: 700px) {
+					padding-inline: 0.8rem;
+					padding-block: 0.6rem;
+					font-size: 0.8rem;
+					font-weight: 500;
+					display: flex;
+					justify-content: center;
+				}
+			}
+		}
+	}
+}

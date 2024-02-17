@@ -1,0 +1,180 @@
+.section4 {
+	padding-block: 150px;
+	background: black;
+
+	.content {
+		color: white;
+		.h1 {
+			font-size: 2.8rem;
+		}
+		.mufa {
+			display: flex;
+			justify-content: space-around;
+			gap: 50px;
+			margin-top: 4rem;
+
+			@media (max-width: 767px) {
+				display: flex;
+				flex-direction: column;
+			}
+			.card {
+				img {
+					@media (max-width: 767px) {
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+			.cars {
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+
+				.mitle {
+					display: flex;
+					justify-content: space-around;
+					gap: 15px;
+					.imgs {
+						width: 50px;
+						text-align: center;
+						height: 50px;
+						border: 2px solid rgb(255, 63, 98);
+						border-radius: 50%;
+					}
+					.btn1 {
+						border: 2px solid rgb(255, 63, 98);
+						background-color: black;
+						color: rgb(255, 63, 98);
+						width: 80px;
+						border-radius: 35px;
+					}
+					.btn2 {
+						background-color: black;
+						color: rgb(255, 63, 98);
+						border: 2px solid rgb(255, 63, 98);
+						width: 140px;
+						border-radius: 35px;
+					}
+				}
+			}
+			.cars2 {
+				p {
+					font-size: 50px;
+					color: white;
+				}
+			}
+			.cars3 {
+				p {
+					font-weight: 200;
+					color: white;
+				}
+			}
+			.cars4 {
+				button {
+					height: 50px;
+					width: 130px;
+					border-radius: 35px;
+					border: 2px solid black;
+				}
+			}
+		}
+		.content2 {
+			display: flex;
+			margin-top: 11rem;
+			@media (max-width: 767px) {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+			}
+			.car1 {
+				display: flex;
+				justify-content: space-between;
+				gap: 10px;
+				@media (max-width: 767px) {
+					display: flex;
+					justify-content: space-between;
+				}
+
+				.ses {
+					width: 80px;
+					height: 80px;
+					background-color: rgba(104, 95, 95, 0.267);
+				}
+				.ph1 {
+					display: flex;
+					flex-direction: column;
+					h3 {
+						font-size: 50px;
+					}
+				}
+			}
+			.car2 {
+				display: flex;
+				justify-content: space-between;
+				gap: 10px;
+				padding-left: 8rem;
+				@media (max-width: 767px) {
+					display: flex;
+					padding-left: 0;
+					justify-content: space-between;
+				}
+				.ses {
+					width: 80px;
+					height: 80px;
+					background-color: rgba(104, 95, 95, 0.267);
+				}
+				.ph2 {
+					display: flex;
+					flex-direction: column;
+					h3 {
+						font-size: 50px;
+					}
+				}
+			}
+			.car3 {
+				display: flex;
+				justify-content: space-between;
+				gap: 10px;
+				padding-left: 9rem;
+				@media (max-width: 767px) {
+					display: flex;
+					justify-content: space-between;
+					padding-left: 0;
+				}
+				.ses {
+					width: 80px;
+					height: 80px;
+					background-color: rgba(104, 95, 95, 0.267);
+				}
+				.ph3 {
+					display: flex;
+					flex-direction: column;
+					h3 {
+						font-size: 50px;
+					}
+				}
+			}
+		}
+		.content3 {
+			margin-top: 6rem;
+			.munar {
+				width: 26rem;
+				display: flex;
+				cursor: pointer;
+				flex-direction: column;
+				@media (max-width: 767px) {
+					width: 100%;
+				}
+				.hov {
+					padding: 5%;
+					width: 30rem;
+				}
+				.hov:hover {
+					padding: 5%;
+					background-color: rgb(255, 63, 98);
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

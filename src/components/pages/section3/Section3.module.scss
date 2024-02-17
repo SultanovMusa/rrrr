@@ -1,0 +1,23 @@
+.Section3 {
+	margin-top: 2.5rem;
+	background: rgb(255, 63, 98);
+	transform: rotate(-1deg);
+	height: 78px;
+	width: 100%;
+	overflow: hidden; /* Add this line to hide scrollbars */
+
+	.content {
+		.cards {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			img {
+				width: auto;
+				@media (max-width: 767px) {
+					display: none;
+				}
+			}
+		}
+	}
+}

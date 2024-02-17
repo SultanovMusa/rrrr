@@ -1,0 +1,25 @@
+.section5 {
+	padding-block: 150px;
+	.content {
+		img {
+			@media (max-width: 767px) {
+				width: 100%;
+			}
+		}
+		h1 {
+			font-size: 2.5rem;
+		}
+		.cards {
+			margin-top: 5rem;
+			display: flex;
+			justify-content: space-between;
+			gap: 0.7rem;
+		}
+		.cards2 {
+			margin-top: 1rem;
+			display: flex;
+			justify-content: space-between;
+			gap: 0.7rem;
+		}
+	}
+}
